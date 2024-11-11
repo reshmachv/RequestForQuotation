@@ -1,0 +1,12 @@
+server:
+  port: 8884
+
+spring:
+  application:
+    name: "RFQService"
+  data:
+    mongodb:
+      host: "localhost"
+      port: "27017"
+      database: "ecommerce"
+      auto-index-creation: "true"

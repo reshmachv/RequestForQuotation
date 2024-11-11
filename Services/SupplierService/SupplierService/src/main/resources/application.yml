@@ -1,0 +1,17 @@
+server:
+  port: 8897
+spring:
+  application: "SupplierService"
+  datasource:
+    url: jdbc:mysql://localhost:3306/ECommerce
+    username: root
+    password: Ichigo123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        boot:
+          allow_jdbc_metadata_access: false

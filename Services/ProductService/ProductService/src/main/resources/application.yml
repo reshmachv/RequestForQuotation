@@ -1,0 +1,10 @@
+server:
+  port: 8871
+spring:
+  application: "ProductService"
+  data:
+      mongodb:
+        host: "localhost"
+        port: "27017"
+        database: "ecommerce"
+        auto-index-creation: "true"
