@@ -23,12 +23,3 @@ Supplier can:
 View available RFQs.
 Submit quotations for the RFQs.
 View responses and quote history.
-
-
-
-
-Customer Service: http://localhost:8081 <br>
-Product Service: http://localhost:8082 <br>
-Cart Service: http://localhost:8083 <br>
-RFQ Service: http://localhost:8084 <br>
-Supplier Service: http://localhost:8085 
